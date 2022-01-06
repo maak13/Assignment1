@@ -1,20 +1,26 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+#Main-text{
+    font-weight: 900;
+}
 .Mission{
     color: orange;
 }
 .box{
    border-left: 5px solid rgb(233, 63, 168);
-    
+   padding-left: 10px; 
 }
 .Sec-1{
     display: flex;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 .person{
-    width: 40%;
-    padding-left: 40%;
+    width: 60%;
+    padding-left: 25%;
 }
 .shift{
-    margin-left: 25px;
+    margin-left: 10%;
 }
 h1{
     font-size: 40px;
@@ -23,16 +29,17 @@ h1{
     background-image: linear-gradient(orange, red);
     border-radius: 2px;
     padding: 10px 20px;
-    text-decoration: none;
-    margin-right: 270px;
+    margin-right: 500px;
+    font-weight: 600;
     text-align: center;
 }
+
 .Mission-text{
     text-align: center;
 }
 #box-1{
     background-color: powderblue;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 50px;
     margin-right: 20px;
     margin-left: 8%;
@@ -40,25 +47,26 @@ h1{
 }
 #box-2{
     background-color:burlywood;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 50px;
     margin-right: 20px;
     margin-left: 20px;
 }
 #box-3{
     background-color: coral;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 50px;
     margin-left: 20px;
     margin-right: 8%;
-
+}
+.decoration{
+    text-align: justify;
 }
 .Sec-2{
     display: flex;
-    
-    margin-bottom: 90px;
+    margin-bottom: 100px;
     padding: 10px;
-    align-content: space-between;
+    
 }
 .photo{
     width: 60%;
@@ -71,19 +79,64 @@ h1{
     background-position: left;
     background-size: 25%;
 }
+.shift-2{
+    margin-left: 15%;
+    margin-right: 100px;
+}
 .coding{
-    width: 40%;
-    padding-left: 10%;
+    width: 80%;
+    padding-left: 15%;
 }
 .Sec-4{
     display: flex;
     margin-bottom: 200px;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position:right;
+    background-position-x: 100%;
+    background-position-y: 80px;
     background-size: 25%;
 }
+.shift-3{
+    margin-left: 10%;
+    margin-right: 50px;
+}
+
+.meeting{
+    width: 90%;
+    margin-right: 40%;
+}
 #bottom{
-    background-color:gray;
+    background-color:grey;
     margin-bottom: 0%;
+}
+.Sec-5{
+    display: flex;
+    margin-bottom: 200px;
+    padding: 10px;
+    margin: 10px 20px;
+}
+.shadow-1{
+    box-shadow: 10px 5px 20px burlywood;
+    background-color:khaki;
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-left: 5px solid orchid;
+    border-right: 5px solid blue;
+    width: 45%;
+}
+.shadow-2{
+    box-shadow: 10px 5px 20px burlywood;
+    background-color:lightgreen;
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-left: 5px solid orchid;
+    border-right: 5px solid blue;
+    width: 45%;
+}
+.Duration{
+    color: teal;
 }
