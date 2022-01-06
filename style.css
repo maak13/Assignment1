@@ -27,7 +27,7 @@ h1{
 }
 .highlight{
     background-image: linear-gradient(orange, red);
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 10px 20px;
     margin-right: 500px;
     font-weight: 600;
