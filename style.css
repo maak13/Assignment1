@@ -85,28 +85,27 @@ h1{
 }
 .coding{
     width: 80%;
-    padding-left: 15%;
+    padding-left: 20%;
 }
 .Sec-4{
     display: flex;
     margin-bottom: 200px;
-    background-image: url(images/shapes/shape-1.png);
+    background-image: url(images/shapes/shape-4.png);
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 80px;
-    background-size: 25%;
+    background-position: left;
+    background-size: 35%;
 }
 .shift-3{
-    margin-left: 10%;
-    margin-right: 50px;
+    margin-left: 90px;
+    margin-right: 200px;
+
+}
+.meeting{
+    width: 80%;
 }
 
-.meeting{
-    width: 90%;
-    margin-right: 40%;
-}
 #bottom{
-    background-color:grey;
+    background-color:lightslategray;
     margin-bottom: 0%;
 }
 .Sec-5{
